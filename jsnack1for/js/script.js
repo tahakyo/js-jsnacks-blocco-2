@@ -3,7 +3,7 @@
 // Esegui questo programma in due versioni, con il for e con il while.
 
 let sum = 0;
-
+// programma con for
 for (let i = 0; i < 5; i++) {
     // chiedo all'utente di inserire un numero per 5 volte
    const userInput = parseInt(prompt('inserisci un numero'));
@@ -12,3 +12,4 @@ for (let i = 0; i < 5; i++) {
     sum = userInput + i;
 }
 console.log(sum);
+
